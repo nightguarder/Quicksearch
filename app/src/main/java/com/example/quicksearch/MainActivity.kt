@@ -30,16 +30,22 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = LinearLayoutManager(this)
         //Add data to list
-        addLanguageData();
+        addLanguageData()
         adapter = LanguageAdapter(mList)
         recyclerView.adapter = adapter
 
 
     }
     private fun addLanguageData(){
+
+        mList.add(LanguageData("SvelteKit", R.drawable.svelte))
+        mList.add(LanguageData("React", R.drawable.react))
+        mList.add(LanguageData("NextJs", R.drawable.kotlin))
+        mList.add(LanguageData("Docker", R.drawable.kotlin))
         mList.add(LanguageData("Kotlin", R.drawable.kotlin))
-        mList.add(LanguageData("C++", R.drawable.cplusplus))
+        mList.add(LanguageData("C, C++", R.drawable.cplusplus))
         mList.add(LanguageData("HTML", R.drawable.html))
+        mList.add(LanguageData("CSS", R.drawable.css))
         mList.add(LanguageData("JavaScript", R.drawable.javascript))
     }
 

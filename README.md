@@ -1,11 +1,11 @@
 # Quicksearch
-RecyclerView project to list programming languages. 
+RecyclerView project to list my programming skills. 
 School project done in 1 day. 
 # Quicksearch app 
 ![App Screenshot](app/src/img/mainView.png)
 ## Features
 
-- **Programming Language Showcase:** Discover and learn about various programming languages.
+- **Programming Skills Showcase:** Discover and various programming skills that I learned
 - **RecyclerView Integration:** Seamlessly scroll through the list of languages for a smooth user experience.
 - **SearchView Integration** Quickly search from the list of available languages.
 
