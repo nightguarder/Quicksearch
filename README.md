@@ -22,14 +22,17 @@ School project done in 1 day.
 
    ```bash
    git clone https://github.com/nigthguarder/Quicksearch.git
-    ````
+    ```
 ### Warning!
 Before building the project set your compileSdk to atleast 34.
+
+```
 build.gradle.kts(:app):
-```android {
+
+android {
 namespace = "com.example.quicksearch"
 compileSdk = 34
-````
+```
 2. **Open in Android Studio:**
 - Build and compile the project
 - The app will be installed on an Android emulator or connected device.
