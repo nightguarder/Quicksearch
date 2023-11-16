@@ -26,8 +26,10 @@
                 android:id="@+id/logoItem"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/kotlin"
-                android:scaleType="fitXY" />
+                android:background="@android:color/transparent"
+                android:contentDescription="Logo language"
+                android:scaleType="fitXY"
+                android:src="@drawable/kotlin" />
         </androidx.cardview.widget.CardView>
 
         <TextView

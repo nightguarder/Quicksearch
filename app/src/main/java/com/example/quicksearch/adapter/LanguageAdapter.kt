@@ -17,6 +17,11 @@ class LanguageAdapter(private var mList: List<LanguageData>)
         val titleTv : TextView = itemView.findViewById(R.id.ItemText)
 
     }
+    //Fill the list found data
+    fun setFilteredList(mList: List<LanguageData>){
+        this.mList = mList
+        notifyDataSetChanged()
+    }
     //Change each Text for the item in the list
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LanguageViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.each_item,parent,false)
