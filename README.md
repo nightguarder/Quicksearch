@@ -25,6 +25,7 @@ School project done in 1 day.
     ````
 ### Warning!
 Before building the project set your compileSdk to atleast 34.
+build.gradle.kts(:app):
 ```android {
 namespace = "com.example.quicksearch"
 compileSdk = 34
